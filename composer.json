@@ -1,0 +1,14 @@
+{
+    "name": "brunoba/reactphp",
+    "description": "A simple project in Php to test the library reactphp",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bruno Barros",
+            "email": "brunobarros2014@gmail.com"
+        }
+    ],
+    "require": {
+        "cboden/ratchet": "^0.4.3"
+    }
+}

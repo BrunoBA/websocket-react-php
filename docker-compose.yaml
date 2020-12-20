@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  react_php_test:
+    container_name: react_php_test
+    build:
+      context: .
+    volumes:
+      - .:/var/www/project/
+    ports:
+      - 8002:8002 # Ports that are exposed, you can connect to port 8001 to port 80 of the container.
