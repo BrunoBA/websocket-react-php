@@ -57,7 +57,7 @@ $chatComponent = new class implements MessageComponentInterface {
     }
 };
 
-$port = 443;
+$port = 80;
 $server = IoServer::factory(
     new HttpServer(
         new WsServer($chatComponent)
